@@ -1,17 +1,18 @@
 <p align="left">
-    <a href="https://github.com/ok406lhq/ok406lhq">
-        <img align="center" src="https://github-readme-stats.vercel.app/api?username=ok406lhq&show_icons=true&theme=transparent&include_all_commits">
+    <a href="https://github.com/ok406lhq/RTCoin">
+        <img align="center" src="https://raw.githubusercontent.com/ok406lhq/ok406lhq/refs/heads/main/ok406lhq-github-cards.png" width="600">
     </a>
     <br>
     <br>
     <a href="https://github.com/ok406lhq/ok406lhq">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ok406lhq&theme=transparent&layout=compact&card_width=467">
+        <img align="center" src="https://github-readme-stats.vercel.app/api?username=ok406lhq&show_icons=true&theme=radical&include_all_commits" width="600">
     </a>
     <br>
     <br>
      <a href="https://github.com/ok406lhq/RTCoin">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ok406lhq&repo=RTCoin">
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ok406lhq&repo=RTCoin&theme=radical">
     </a>
+    
 </p>
 
 ## 个人博客
