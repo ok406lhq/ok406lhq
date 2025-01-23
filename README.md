@@ -3,6 +3,7 @@
 
 - 📫 How to reach me **lslhq1127@gmail.com**
   
+<!--
 <p align="left">
     <a href="https://github.com/ok406lhq/ok406lhq">
         <img align="center" src="https://github-readme-stats.vercel.app/api?username=ok406lhq&show_icons=true&include_all_commits" width="600">
@@ -17,6 +18,15 @@
      <a href="https://github.com/ok406lhq/RTCoin">
         <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ok406lhq&repo=RTCoin">
     </a>
+</p>
+-->
+<p align="center">
+	<img src="https://github-readme-stats.vercel.app/api?username=ok406lhq&count_private=true&locale=cn&show_icons=true" width="450"/>
+</p>
+
+<h3 align="center">🧨🧨🧨最常用的语言🧨🧨🧨</h3>
+<p align="center">
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ok406lhq&locale=cn" width="450"/>
 </p>
 
 ## 个人博客
