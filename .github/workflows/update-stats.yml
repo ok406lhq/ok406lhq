@@ -19,7 +19,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '16' # 改为 16 更兼容老依赖；如需 18 可改回
+        node-version: '18' # 改为 16 更兼容老依赖；如需 18 可改回
   
     - name: Ensure scripts executable
       run: |
