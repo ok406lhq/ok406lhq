@@ -1,5 +1,5 @@
 
-``bash name=.github/scripts/generate-cards.sh
+``bash name=scripts/generate-cards.sh
 #!/usr/bin/env bash
 set -euo pipefail
 
