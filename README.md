@@ -6,7 +6,7 @@
 <!--
 <p align="left">
     <a href="https://github.com/ok406lhq/ok406lhq">
-        <img align="center" src="https://github-readme-stats.vercel.app/api?username=ok406lhq&show_icons=true&include_all_commits" width="600">
+        <img align="center" src="https://github-readme-stats-f29nf8nkl-lammos-projects.vercel.app/api?username=ok406lhq&show_icons=true&include_all_commits" width="600">
     </a>
     <br>
     <br>
@@ -16,7 +16,7 @@
     <br>
     <br>
      <a href="https://github.com/ok406lhq/RTCoin">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ok406lhq&repo=RTCoin">
+        <img align="center" src="https://github-readme-stats-f29nf8nkl-lammos-projects.vercel.app/api/pin/?username=ok406lhq&repo=RTCoin">
     </a>
 </p>
 -->
