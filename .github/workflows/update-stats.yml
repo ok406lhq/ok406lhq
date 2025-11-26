@@ -23,13 +23,13 @@ jobs:
 
       - name: Ensure scripts executable
         run: |
-          chmod +x .github/scripts/generate-cards.sh
+          chmod +x /scripts/generate-cards.sh
 
       - name: Generate official-style SVG cards
         env:
           GH_README_STATS_TOKEN: ${{ secrets.GH_README_STATS_TOKEN }}
           USERNAME: ok406lhq
-        run: .github/scripts/generate-cards.sh
+        run: /scripts/generate-cards.sh
 
       - name: Commit and push generated images
         run: |
