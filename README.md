@@ -21,12 +21,12 @@
 </p>
 -->
 <p align="center">
-	<img src="https://github-readme-stats-f29nf8nkl-lammos-projects.vercel.app/api?username=ok406lhq&count_private=true&locale=cn&show_icons=true" width="450"/>
+	<img src="https://github-readme-stats-5m48plcl9-lammos-projects.vercel.app/api?username=ok406lhq&count_private=true&locale=cn&show_icons=true" width="450"/>
 </p>
 
 <h3 align="center">🧨🧨🧨最常用的语言🧨🧨🧨</h3>
 <p align="center">
-	<img src="https://github-readme-stats-f29nf8nkl-lammos-projects.vercel.app/api/top-langs/?username=ok406lhq&locale=cn" width="450"/>
+	<img src="https://github-readme-stats-5m48plcl9-lammos-projects.vercel.app/api/top-langs/?username=ok406lhq&locale=cn" width="450"/>
 </p>
 
 ## 个人博客
