@@ -1,37 +1,40 @@
-name: Update GitHub Stats
+name: Update GitHub Stats (official style)
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # 每6小时运行一次，可按需修改
+    - cron: '0 */6 * * *' # 每6小时运行一次（按需修改）
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '18'
 
-      - name: Generate stats SVG
+      - name: Ensure scripts executable
+        run: |
+          chmod +x .github/scripts/generate-cards.sh
+
+      - name: Generate official-style SVG cards
         env:
           GH_README_STATS_TOKEN: ${{ secrets.GH_README_STATS_TOKEN }}
           USERNAME: ok406lhq
-        run: |
-          mkdir -p images
-          node scripts/generate-stats.js
+        run: .github/scripts/generate-cards.sh
 
-      - name: Commit and push
+      - name: Commit and push generated images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add images/stats.svg
-          git commit -m "chore: update github stats" || echo "no changes to commit"
+          git add images/top-langs.svg images/stats.svg || true
+          git commit -m "chore: update github-readme-stats SVGs" || echo "no changes to commit"
           git push
