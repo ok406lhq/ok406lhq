@@ -1,43 +1,43 @@
-name: Update GitHub Stats (official style)
+# name: Update GitHub Stats (official style)
 
-on:
-  schedule:
-    - cron: '0 */6 * * *' # 每6小时运行一次（按需修改）
-  workflow_dispatch:
+# on:
+  # schedule:
+    # - cron: '0 */6 * * *' # 每6小时运行一次（按需修改）
+  # workflow_dispatch:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
+# jobs:
+  # build:
+    # runs-on: ubuntu-latest
+    # timeout-minutes: 30
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        persist-credentials: true
+    # steps:
+    # - name: Checkout repository
+      # uses: actions/checkout@v4
+      # with:
+        # persist-credentials: true
   
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18' # 改为 16 更兼容老依赖；如需 18 可改回
-        cache: 'npm'
+    # - name: Setup Node.js
+      # uses: actions/setup-node@v3
+      # with:
+        # node-version: '18' # 改为 16 更兼容老依赖；如需 18 可改回
+        # cache: 'npm'
   
-    - name: Ensure scripts executable
-      run: |
-        chmod +x scripts/generate-cards.sh
+    # - name: Ensure scripts executable
+      # run: |
+        # chmod +x scripts/generate-cards.sh
   
-    - name: Generate official-style SVG cards (with detailed logs)
-      env:
-        GH_README_STATS_TOKEN: ${{ secrets.GH_README_STATS_TOKEN }}
-        USERNAME: ok406lhq
-      run: |
-        set -eux
-        scripts/generate-cards.sh
+    # - name: Generate official-style SVG cards (with detailed logs)
+      # env:
+        # GH_README_STATS_TOKEN: ${{ secrets.GH_README_STATS_TOKEN }}
+        # USERNAME: ok406lhq
+      # run: |
+        # set -eux
+        # scripts/generate-cards.sh
   
-    - name: Commit and push generated images
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add images/top-langs.svg images/stats.svg || true
-        git commit -m "chore: update github-readme-stats SVGs" || echo "no changes to commit"
-        git push
+    # - name: Commit and push generated images
+      # run: |
+        # git config user.name "github-actions[bot]"
+        # git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        # git add images/top-langs.svg images/stats.svg || true
+        # git commit -m "chore: update github-readme-stats SVGs" || echo "no changes to commit"
+        # git push
