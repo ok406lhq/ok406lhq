@@ -23,7 +23,7 @@ jobs:
   
     - name: Ensure scripts executable
       run: |
-        chmod +x .github/scripts/generate-cards.sh
+        chmod +x scripts/generate-cards.sh
   
     - name: Generate official-style SVG cards (with detailed logs)
       env:
@@ -31,7 +31,7 @@ jobs:
         USERNAME: ok406lhq
       run: |
         set -eux
-        .github/scripts/generate-cards.sh
+        scripts/generate-cards.sh
   
     - name: Commit and push generated images
       run: |
