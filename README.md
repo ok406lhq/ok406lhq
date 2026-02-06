@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm momoa</h1>
 <h3 align="center">An Android developer from ShenZhen </h3>
 
-- 📄 Checkout my website[个人网站]: [portfolio](https://anomomo.xyz/)
+- 📄 Checkout my website: [个人网站](https://anomomo.xyz/)
 - 📩 Reach me on: [**Email**](lslhq1127@gmail.com)
   
 
