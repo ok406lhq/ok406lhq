@@ -8,12 +8,13 @@
   
 
 <p align="center">
-	<img src="https://github-readme-stats-d278bb46k-lammos-projects.vercel.app/api?username=ok406lhq&count_private=true&locale=cn&show_icons=true" width="450"/>
+  <img src="https://github-readme-stats-pi-nine.vercel.app/api?username=ok406lhq&count_private=true&locale=cn&show_icons=true" width="450"/>
 </p>
 
 <h3 align="center">🧨🧨🧨最常用的语言🧨🧨🧨</h3>
+
 <p align="center">
-	<img src="https://github-readme-stats-d278bb46k-lammos-projects.vercel.app/api/top-langs/?username=ok406lhq&locale=cn" width="450"/>
+  <img src="https://github-readme-stats-pi-nine.vercel.app/api/top-langs/?username=ok406lhq&locale=cn" width="450"/>
 </p>
 
 ## 个人博客
